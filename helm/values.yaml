@@ -1,0 +1,26 @@
+affinity: {}
+autoscaling: {}
+fullnameOverride: null
+image:
+  pullPolicy: IfNotPresent
+  repository: rubensix/staging
+  tag: dac1bffdb8f86ee2e863876c4258bf07e0feed44
+imagePullSecrets: []
+ingress:
+  enabled: true
+nameOverride: null
+nodeSelector: {}
+podAnnotations: {}
+podSecurityContext: {}
+replicaCount: 1
+resources: {}
+securityContext: {}
+service:
+  name: bb
+  port: 80
+  targetPort: 8080
+serviceAccount:
+  annotations: {}
+  create: true
+  name: null
+tolerations: []
